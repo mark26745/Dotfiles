@@ -1,0 +1,26 @@
+#screenshot utilities
+@Print
+	scrot -f ~/Pictures/Scrot/.png -e 'xclip -selection "clipboard" -t "image/png" $f'  
+shift + @Print
+	scrot -fs --line mode=edge ~/Pictures/Scrot/.png -e 'xclip -selection "clipboard" -t "image/png" $f'
+ctrl + @Print
+	scrot -fu ~/Pictures/Scrot/.png -e 'xclip -selection "clipboard" -t "image/png" $f'	
+
+#critical apps
+super + r ; {d,k,t}
+	{discord,keepassxc,telegram-desktop}
+
+#rofi modes
+alt  + space ; {space,c,s}
+	{rofi -show combi, rofi -show calc -modi calc -no-show-match -no-sort,rofi -show ssh} 
+
+
+#TODO
+
+#MPD
+
+#Spotifyd
+
+#Brightness
+
+
