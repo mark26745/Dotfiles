@@ -15,7 +15,7 @@ slstatus &
 dunst &
 
 #keychord manager
-sxhkd &
+sxhkd -c ~/.config/sxhkd/sxhkdrc &
 
 
 
