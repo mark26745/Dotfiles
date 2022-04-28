@@ -120,14 +120,5 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-#rofi
-space + alt
-	rofi -show combi
 
-#screenshot utilities
-@Print
-        scrot -f ~/Pictures/Scrot/.png -e 'xclip -selection "clipboard" -t "image/png" $f'
-shift + @Print
-        scrot -fs --line mode=edge ~/Pictures/Scrot/.png -e 'xclip -selection "clipboard" -t "image/png" $f'
-ctrl + @Print
-scrot -fu ~/Pictures/Scrot/.png -e 'xclip -selection "clipboard" -t "image/png" $f'
+
