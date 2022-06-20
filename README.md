@@ -9,3 +9,12 @@ They are useful for migrations
 - Dunst
 - Rofi
 - Sxhkd
+
+### BSPWM
+Will use
+- sxhkd
+- xfce-power-manager
+- zathura
+- rofi
+- nitrogen
+    
