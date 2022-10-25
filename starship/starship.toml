@@ -1,0 +1,41 @@
+format = """
+$directory\
+[](fg:#DA627D bg:#FCA17D)\
+$git_branch\
+$git_status\
+[](fg:#FCA17D bg:#5f8b5d)\
+$conda\
+[](fg:#5f8b5d bg:#33658A)\
+$time\
+[ ](fg:#33658A)\
+"""
+
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+[directory]
+style = "bg:#DA627D"
+format = "[ $path ]($style)"
+truncation_length = 2
+truncation_symbol = ".../"
+
+[git_branch]
+symbol = ""
+style = "bg:#FCA17D fg:#000000"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:#FCA17D fg:#000000"
+format = '[$all_status$ahead_behind ]($style)'
+
+[conda]
+symbol = ""
+style = "bg:#5f8b5d"
+ignore_base = true
+format = '[ $environment ]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#33658A"
+format = '[ $time ]($style)'

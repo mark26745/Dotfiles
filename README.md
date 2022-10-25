@@ -7,14 +7,9 @@ They are useful for migrations
 ## Programs 
 - BSPWM
 - Dunst
+- Polybar
 - Rofi
+- Starship
 - Sxhkd
+- Zsh
 
-### BSPWM
-Will use
-- sxhkd
-- xfce-power-manager
-- zathura
-- rofi
-- nitrogen
-    
